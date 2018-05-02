@@ -8,6 +8,8 @@ If you really like them, or think I lost enough money testing them, please feel 
 
 ## Backtesting Results
 
+At this stage I have only Backtesting Resuts, I will post real results for each strategy, as I generate data. This should take about a month for a some realistic samples.
+
 ### Simple:
 
 2018-05-01 21:37:18,094 - freqtrade.optimize.backtesting - INFO - Measuring data from 2018-04-12T04:40:00+00:00 up to 2018-05-02T04:30:00+00:00 (19 days)..
