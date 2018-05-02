@@ -36,6 +36,8 @@ TOTAL              22            1.44          0.00319681           555.2       
   }
 ```
 
+#### Total Profit: ~31% in 19 days
+
 ### Quickie:
 
 ```
@@ -68,3 +70,5 @@ TOTAL              53            0.81          0.00428972           403.7       
     "sell_profit_only": true
   }
 ```
+
+#### Total Profit: ~42% in 19 days
