@@ -74,3 +74,33 @@ TOTAL              53            0.81          0.00428972           403.7       
 ```
 
 #### Total Profit: ~42% in 19 days
+
+### ReinforcedQuickie
+
+```
+2018-05-07 16:22:32,731 - freqtrade.optimize.backtesting - INFO - Measuring data from 2018-01-10T04:55:00+00:00 up to 2018-05-07T20:55:00+00:00 (117 days)..
+2018-05-07 16:22:33,938 - freqtrade.optimize.backtesting - INFO -
+==================================== BACKTESTING REPORT ====================================
+pair        buy count    avg profit %    total profit BTC    avg duration    profit    loss
+--------  -----------  --------------  ------------------  --------------  --------  ------
+ETH/BTC             1            2.03          0.00019834            10.0         1       0
+LTC/BTC             1            2.53          0.00024453            15.0         1       0
+ETC/BTC             6            0.24          0.00013575           130.8         5       1
+DASH/BTC            2            2.50          0.00048673           480.0         2       0
+XLM/BTC            14            1.45          0.00198838            35.0        14       0
+POWR/BTC           12           -0.34         -0.00039685            43.8         9       3
+XMR/BTC             1           -5.67         -0.00056424            35.0         0       1
+TOTAL              37            0.58          0.00209264            76.2        32       5
+
+```
+
+``` javascript
+  "max_open_trades": 1,
+  "stake_currency": "BTC",
+  "stake_amount": 0.01,
+
+  "experimental": {
+    "use_sell_signal": true,
+    "sell_profit_only": true
+  }
+```
