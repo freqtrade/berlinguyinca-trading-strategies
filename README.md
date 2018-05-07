@@ -17,15 +17,19 @@ These are just backtesting results. Nobody know's how this will perform in a bul
 2018-05-01 21:37:18,094 - freqtrade.optimize.backtesting - INFO - Measuring data from 2018-04-12T04:40:00+00:00 up to 2018-05-02T04:30:00+00:00 (19 days)..
 
 ```
+2018-05-07 16:29:19,240 - freqtrade.optimize.backtesting - INFO - Measuring data from 2018-01-10T04:55:00+00:00 up to 2018-05-07T20:55:00+00:00 (117 days)..
+2018-05-07 16:29:22,102 - freqtrade.optimize.backtesting - INFO -
 ==================================== BACKTESTING REPORT ====================================
 pair        buy count    avg profit %    total profit BTC    avg duration    profit    loss
 --------  -----------  --------------  ------------------  --------------  --------  ------
-BTC_ETH            13            1.16          0.00150821           600.0        13       0
-BTC_LTC             2            1.24          0.00024830           685.0         2       0
-BTC_ETC             2            1.26          0.00025439           515.0         2       0
-BTC_POWR            3            2.94          0.00091145           433.3         3       0
-BTC_XMR             2            1.37          0.00027446           357.5         2       0
-TOTAL              22            1.44          0.00319681           555.2        22       0
+ETH/BTC            40           -0.28         -0.00112827           472.5        38       2
+LTC/BTC            12           -0.88         -0.00107003           298.3        11       1
+ETC/BTC            10            1.45          0.00145145           220.6        10       0
+DASH/BTC            6           -7.73         -0.00465345           464.3         4       2
+XLM/BTC             5            1.63          0.00081850           238.0         5       0
+POWR/BTC            5            1.80          0.00089961           168.0         5       0
+XMR/BTC             7            1.24          0.00087032           575.9         7       0
+TOTAL              85           -0.33         -0.00281187           394.5        80       5
 
 ```
 
@@ -43,23 +47,19 @@ TOTAL              22            1.44          0.00319681           555.2       
 ### Quickie:
 
 ```
-2018-05-01 21:41:24,313 - freqtrade.optimize.backtesting - INFO - Measuring data from 2018-04-12T04:40:00+00:00 up to 2018-05-02T04:35:00+00:00 (19 days)..
-2018-05-01 21:41:24,927 - freqtrade.optimize.backtesting - INFO -
+2018-05-07 16:28:33,047 - freqtrade.optimize.backtesting - INFO - Measuring data from 2018-01-10T04:55:00+00:00 up to 2018-05-07T20:55:00+00:00 (117 days)..
+2018-05-07 16:28:35,543 - freqtrade.optimize.backtesting - INFO -
 ==================================== BACKTESTING REPORT ====================================
 pair        buy count    avg profit %    total profit BTC    avg duration    profit    loss
 --------  -----------  --------------  ------------------  --------------  --------  ------
-BTC_ETH            17            0.64          0.00109456           510.3        17       0
-BTC_LTC             7            0.68          0.00048056           489.3         7       0
-BTC_ETC             4            0.99          0.00039919           187.5         4       0
-BTC_DASH            4            0.92          0.00037095           178.8         4       0
-BTC_ZEC             3            0.72          0.00021597           278.3         3       0
-BTC_XLM             2            0.89          0.00017956           350.0         2       0
-BTC_NXT             4            0.83          0.00033445           160.0         4       0
-BTC_POWR            4            1.54          0.00062234           250.0         4       0
-BTC_ADA             5            0.75          0.00037910           641.0         5       0
-BTC_XMR             3            0.71          0.00021304           483.3         3       0
-TOTAL              53            0.81          0.00428972           403.7        53       0
-
+ETH/BTC            23           -1.15         -0.00265665           565.0        21       2
+LTC/BTC             6            1.24          0.00074586           835.8         6       0
+ETC/BTC             7           -2.18         -0.00152821           279.4         6       1
+DASH/BTC            4           -5.44         -0.00217310           381.2         3       1
+XLM/BTC             3            1.31          0.00039541           273.3         3       0
+POWR/BTC            4            1.91          0.00076463           152.5         4       0
+XMR/BTC             2            1.35          0.00027032           270.0         2       0
+TOTAL              49           -0.85         -0.00418174           478.8        45       4
 ```
 
 ``` javascript
