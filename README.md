@@ -133,3 +133,29 @@ TOTAL              37            0.58          0.00209264            76.2       
     "sell_profit_only": true
   }
 ```
+
+### SmoothScalp
+
+The purpose of this strategy is very quick entries and exits into the market and it performs well on the 1 minute and 5 minute settings. It needs a rather generous stop loss of 3-4% and should
+run with sell signals disabled.
+
+It utilizes the MFI, to introduce volume into the decision makings, to avoid unnecessary buys as the Scalp strategy does.
+
+```
+2018-05-14 20:24:43,730 - freqtrade.optimize.backtesting - INFO - Measuring data from 2018-01-20T04:52:00+00:00 up to 2018-01-28T10:21:00+00:00 (8 days)..
+2018-05-14 20:24:44,191 - freqtrade.optimize.backtesting - INFO -
+==================================== BACKTESTING REPORT ====================================
+pair        buy count    avg profit %    total profit BTC    avg duration    profit    loss
+--------  -----------  --------------  ------------------  --------------  --------  ------
+ETH/BTC            11            0.20          0.00004481            11.3        11       0
+LTC/BTC            17            0.24          0.00008077            61.3        17       0
+ETC/BTC            30            0.31          0.00018870            39.3        30       0
+DASH/BTC           22            0.01          0.00000440            36.3        21       1
+XLM/BTC            34            0.21          0.00014283            24.7        33       1
+POWR/BTC           17            0.60          0.00020509            12.2        17       0
+XMR/BTC            34            0.24          0.00016073            24.0        33       1
+TOTAL             165            0.25          0.00082733            30.4       162       3
+
+```
+
+It majorly benefits from as many open trades as possible and we recommend to run it with at least 60 stakes, if not more. 
