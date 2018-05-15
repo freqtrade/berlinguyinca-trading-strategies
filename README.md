@@ -158,4 +158,18 @@ TOTAL             165            0.25          0.00082733            30.4       
 
 ```
 
-It majorly benefits from as many open trades as possible and we recommend to run it with at least 60 stakes, if not more. 
+It majorly benefits from as many open trades as possible and we recommend to run it with at least 60 stakes, if not more and should have the trailing stop loss
+enabled.
+
+Please be aware, it's designed for very short trades, so having a realistic expectation of 0.5 - 1% a trade is paramount!
+
+``` javascript
+  "max_open_trades": 100,
+  "stake_currency": "BTC",
+  "stake_amount": 0.02,
+
+  "experimental": {
+    "use_sell_signal": false,
+    "sell_profit_only": true
+  }
+``` 
