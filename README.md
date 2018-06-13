@@ -3,10 +3,6 @@ contains strategies for using freqtrade. Please be aware they are supposed to sh
 
 A lot of these also helped me just to understand the api and play with some ideas. The only onces I considered worth it to further work on are the ones listed below.
 
-If you really like them, or think I lost enough money testing them, please feel free to shoot me a donation in btc at:
-
-1AoyvVpGSg9TatyCNZbTgkQveFHZXssutW
-
 
 ## Backtesting Results
 
